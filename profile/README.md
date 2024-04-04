@@ -2,22 +2,22 @@
 
 ## Overview
 
-Sonicrypt is an innovative organization dedicated to revolutionizing the user experience in the realm of crypto transactions. Our mission is to bridge the gap between digital transactions and tangible experiences, fostering trust and confidence among buyers and sellers alike.
+Sonicrypt is an organization focused on improving the user experience for crypto transactions. Our goal is to make digital transactions more tangible and build trust between buyers and sellers.
 
 ## Products
 
 ### 1. Sonicrypt Device
 
-The Sonicrypt Device is a compact and intuitive tool that provides immediate auditory and visual confirmation of successful payments. It is designed to enhance the user experience for both buyers and sellers engaging in crypto transactions.
+The Sonicrypt Device is a compact tool that provides audio and visual confirmation of successful crypto payments. It aims to enhance the experience for both buyers and sellers involved in these transactions.
 
 #### Features
 
-- Auditory confirmation of successful payments
+- Audio confirmation of successful payments
 - Visual confirmation of successful payments
 - Voice confirmation of successful payments (Sonicrypt Plus & Sonicrypt Pro)
-- Multi-wallet support (Sonicrypt Plus & Sonicrypt Pro)
-- Multi-chain support (Sonicrypt Pro)
-- On-the-fly QR code generation (Sonicrypt Pro)
+- Support for multiple wallets (Sonicrypt Plus & Sonicrypt Pro)
+- Support for multiple blockchains (Sonicrypt Pro)
+- Generate QR codes on-the-fly (Sonicrypt Pro)
 - Off-chain transactions (Sonicrypt Pro)
 
 #### Components (Sonicrypt)
@@ -25,7 +25,7 @@ The Sonicrypt Device is a compact and intuitive tool that provides immediate aud
 - ESP32
 - LED
 - Buzzer
-  
+
 #### Components (Sonicrypt plus)
 
 - ESP32
@@ -46,21 +46,21 @@ The Sonicrypt Device is a compact and intuitive tool that provides immediate aud
 1. The seller generates a QR code using the Sonicrypt app.
 2. The buyer scans the QR code using their wallet app.
 3. The buyer sends the payment to the seller.
-4. The Sonicrypt device plays a sound and lights up when the payment is confirmed and finalized.
-5. The seller can then provide the product to the buyer.
+4. The Sonicrypt device plays a sound and lights up when the payment is confirmed.
+5. The seller provides the product to the buyer.
 6. The transaction is complete.
 
 #### How it Works
 
 1. The Sonicrypt device connects to the blockchain network (Solana) websocket to listen for account changes.
-2. The device listens to the account changes of the seller's wallet address.
-3. When the Sonicrypt device detects a change in the seller's wallet address, it retrieves the last transaction signature.
-4. The device then fetches the transaction details using the transaction signature.
+2. It listens to changes in the seller's wallet address.
+3. When a change is detected, it retrieves the last transaction signature.
+4. It fetches the transaction details using the signature.
 5. If the transaction is successful, the Sonicrypt device plays a sound and lights up.
 
 ### 2. Sonicrypt App
 
-The Sonicrypt App is a mobile application that allows users to connect and configure their Sonicrypt devices seamlessly. It serves as a convenient interface for interacting with the device and managing various aspects of the crypto transaction process.
+The Sonicrypt App is a mobile application that allows users to connect and configure their Sonicrypt devices. It serves as an interface for interacting with the device and managing aspects of the crypto transaction process.
 
 #### Tech Stack
 
@@ -80,7 +80,7 @@ The Sonicrypt App is a mobile application that allows users to connect and confi
 
 ## Open-Source and No Hidden Costs
 
-Sonicrypt is a completely open-source project, and we are committed to keeping it that way. The device does not connect to any servers or third-party services, ensuring privacy and transparency. It is a standalone device that you can use without any subscription fees or hidden costs. Both the software and hardware are open-source, allowing you to modify and customize the solution according to your needs.
+Sonicrypt is an open-source project, and we are committed to keeping it that way. The device does not connect to any servers or third-party services, ensuring privacy and transparency. It is a standalone device that you can use without any subscription fees or hidden costs. Both the software and hardware are open-source, allowing you to modify and customize the solution according to your needs.
 
 ## Get Involved
 
@@ -92,4 +92,4 @@ Stay up-to-date with the latest developments, announcements, and updates from th
 
 - Twitter: [@Sonicrypt](https://twitter.com/sonicrypt)
 
-Join our vibrant community and be part of the revolution in crypto transactions!
+Join our community and be part of the effort to improve crypto transactions!
